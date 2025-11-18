@@ -182,7 +182,7 @@ export const EmployeeGrid = ({ data }: EmployeeGridProps) => {
         columnDefs={columnDefs}
         defaultColDef={defaultColDef}
         pagination={true}
-        paginationPageSize={10}
+        paginationPageSize={20}
         animateRows={true}
         rowSelection="multiple"
         suppressRowClickSelection={true}
